@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 package rmj.indiv02;
 import java.util.Scanner;
 /**
- *
- * @author phpjava
+ *Igual que el ejercicio 1 pero en el caso que sea cero
+ * el número introducido muestre por pantalla el mensaje: "el número es cero".
+ * @author Jesus David Morales ramos
  */
 public class Ejer2 {
 
@@ -16,16 +13,20 @@ public class Ejer2 {
      * @param args the command line arguments
      */
      public static void main(String[] args) {
+      // introduccion de datos por teclado.   
       Scanner sc=new Scanner(System.in);
       System.out.println("Ingresa un numero");
-      int n= sc.nextInt();
-      if(n==0){
+      //declaracion de la variable, asignandole el valor introducido por teclado.
+      int numero= sc.nextInt();
+      // Uso de la estructura if donde se establece la condicion a ejecutar segun el valor de la variable.
+      if(numero==0){
       System.out.println("El numero  es cero");
       } else{
-          if(n>0){
-              System.out.println("El numero "+n+" es positivo");
+          //Se vuelve a usar la estrucutura if anidandolo en el else del if principal para el valor 0.
+          if(numero>0){
+              System.out.println("El numero "+numero+" es positivo");
           }else{
-          System.out.println("El numero "+n+" es negativo");
+          System.out.println("El numero "+numero+" es negativo");
           }
       }     
       }

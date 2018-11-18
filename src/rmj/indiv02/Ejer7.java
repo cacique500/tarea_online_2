@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package rmj.indiv02;
 
 /**
- *
- * @author phpjava
+ *    7. Muestre los números pares que hay entre el 50 y el 97. 
+ * @author Jesus David Morales ramos
  */
 public class Ejer7 {
     public static void main(String[] args) {

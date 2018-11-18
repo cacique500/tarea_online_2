@@ -1,13 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package rmj.indiv02;
 import java.util.*;
 /**
- *Programa que lea un número entero N y muestre la tabla de multiplicar de ese número.
- * @author phpjava
+ *     nos diga si queremos mostrar otra tabla de multiplicar. Si el usuario introduce una 
+ * 's' 
+ * volverá a comenzar el programa y pedirá un nuevo número del que mostrar 
+ * la tabla de multiplicar y realizará nuevamente la pregunta de si se quiere
+ * mostrar una tabla de multiplicar. 
+ * 
+ * @author Jesus David Morales ramos
  */
 public class Ejer9 {
      public static void main(String[] args) {
